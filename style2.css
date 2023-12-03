@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e81647;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+form {
+    background-color: #6c1dd3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(56, 17, 17, 0.1);
+    width: 300px;
+    align-self: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, label {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(223, 124, 10), 121, 38);
+    color: #21da0c;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d0cc1;
+}
+
+/* Styles for success message */
+#successMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styles for error messages */
+.error-message {
+    color: rgba(20, 19, 21, 0.79));
+    font-size: 12px;
+    margin-top: 5px;
+}
